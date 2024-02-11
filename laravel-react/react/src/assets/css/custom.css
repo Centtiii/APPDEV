@@ -1,0 +1,70 @@
+:root {
+    --bg-color: #1E1E1E;
+    --bg-secondary: #101010;
+    --secondary-color: #FF0000;
+}
+
+.bg-main-custom {
+    background-color: var(--bg-color);
+}
+.bg-secondary-custom {
+    background-color: var(--bg-secondary);
+}
+.text-secondary-custom {
+    color: var(--secondary-color);
+}
+.social-logo {
+    width: 1.3rem;
+    aspect-ratio: 1/1;
+}
+.gap-1 {
+    gap: 1rem
+}
+.gap-2 {
+    gap: 2rem
+}
+.gap-3 {
+    gap: 3rem
+}
+.gap-4 {
+    gap: 4rem;
+}
+.label-font {
+    font-size: .7rem;
+}
+.fs-custom {
+    font-size: .8rem;
+}
+.w-35 {
+    width: 37%;
+    min-width: 375px;
+    max-width: 600px;
+}
+.rounded-custom {
+    border-radius: 2px !important;
+}
+.fs-custom-input {
+    font-size: .1rem;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.website-logo {
+    width: 60px;
+    aspect-ratio: 1/1;
+    border: 2px solid rgb(183, 0, 0);
+}
+.border-red {
+    border-top: 1.5px solid rgb(183, 0, 0);
+    background: transparent;
+}
+.btn-custom {
+    background: linear-gradient(to top,black, #800E13 );
+    color: white; /* Set text color to white for better contrast */
+    border: none; /* Remove default button border */
+}
+
+.btn-custom:hover {
+    /* Optional: Change the button color on hover */
+    background: linear-gradient(to top,#800E13, black );
+}
